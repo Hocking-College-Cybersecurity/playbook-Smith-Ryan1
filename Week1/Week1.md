@@ -17,4 +17,4 @@
 ## AI Awareness Reflection
 Describe one AI tool (GitHub Copilot, ChatGPT Edu, etc.) you explored.  
 - How did it help (or confuse) you during setup?  
-- How will you verify its suggestions in the future?  
+- Test and retest what advice it has given me to ensure it works correctly.
