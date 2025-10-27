@@ -19,3 +19,4 @@ AI was not used in the setup process for this week, however, future weeks will h
 
 ## Screenshots
 <img width="581" height="642" alt="Screenshot 2025-10-20 104933" src="https://github.com/user-attachments/assets/a3ac2d2a-675a-4ce8-a214-97923a852d16" />
+<img width="1241" height="716" alt="Screenshot 2025-10-27 123234" src="https://github.com/user-attachments/assets/9f2d4cd4-9de4-4578-9f6e-af9269880053" />
