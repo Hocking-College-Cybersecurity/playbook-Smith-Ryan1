@@ -1,8 +1,8 @@
 #code to determine if a person should be paying taxes
-def get_binary_input(prompt):
+def get_binary_input():
     while True:
         try:
-            responce = int(input(prompt))
+            responce = int(input())
             if responce in [1, 0]:
                 return responce
             else:

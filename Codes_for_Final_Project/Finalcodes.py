@@ -1,5 +1,6 @@
 
 import random
+
 def unique_random_numbers(low,high,count):
     if count> (high - low + 1):
         raise ValueError ("Not Enough Numbers in range")
@@ -10,7 +11,6 @@ while True:
         if Startup == 0:
             break
         if Startup == 1:
-            
-    else:
+    
         print("This input is invalid, please try again.")
         continue
