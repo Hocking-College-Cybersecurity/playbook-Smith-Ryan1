@@ -6,12 +6,11 @@ import random
 import csv
 def get_name():
     while True:
-        name = input("Please enter your name:")
-        if name.strip() and name.isalpha(): 
-        # checks if the name has characters and only had alphabetical characters
-            return name
-        else:
+        name = input("Please enter your first and last name:").strip()
+        if any(char.isdigit() for char in name):
             print("Error, invalid input, please enter your name:")
+        else:
+            return name
 
 
 class UniqueNumberGenerator: 
@@ -82,7 +81,7 @@ if __name__ == "__main__":
         print("5. Load data")
         print("6. Save data")
         print("7. Delete data")
-        print("8. Delete a spesific person")
+        print("8. Delete a specific person")
         print("9. Exit")
        
         try:
@@ -111,9 +110,9 @@ if __name__ == "__main__":
             for num, name in gen.all_assigned().items():
                 print(f"{num} -> {name},")
         elif choice == 4:
-            result = gen.random_name
+            result = gen.random_name()
             if result:
-                print(f"{name} has been selected.")
+                print(f"{result} has been selected.")
             else:
                 print("No name has been assigned yet.")
         elif choice == 5:
