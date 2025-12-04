@@ -82,7 +82,7 @@ if __name__ == "__main__":
         print("5. Load data")
         print("6. Save data")
         print("7. Delete data")
-        print("8. Delete a spesific person")
+        print("8. Delete a specific person")
         print("9. Exit")
        
         try:
